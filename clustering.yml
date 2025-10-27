@@ -1,0 +1,21 @@
+name: clustering
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy>=1.26
+  - pandas
+  - scikit-learn>=1.3
+  - statsmodels
+  - scipy
+  - linearmodels
+  - matplotlib
+  - seaborn
+  - openpyxl
+  - xlrd
+  - pyarrow
+  - mkl
+  - mkl-service
+  - jupyterlab
+  - ipykernel

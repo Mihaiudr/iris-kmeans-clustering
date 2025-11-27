@@ -22,37 +22,15 @@ clustering.yml
 
 A Conda environment file listing all necessary Python packages and their specific versions required to run the project without dependency conflicts.
 
-## SETUP AND INSTALLATION
-
-This project requires a Python environment and the specified libraries. The recommended way to set up is using Conda with the provided environment file:
-
-Step 1: Download or clone all project files.
-Step 2: Navigate to the project directory in your terminal.
-
-Step 3: Create the Conda environment:
-conda env create -f clustering.yml
-
-Step 4: Activate the new environment:
-conda activate clustering
-
-## HOW TO RUN THE ANALYSIS
 
 Ensure the 'clustering' Conda environment is active.
 
-Launch Jupyter Lab or Jupyter Notebook:
-jupyter lab
-
-Open the 'Cluster Analysis.ipynb' file.
-
-Run all cells sequentially to execute the full data analysis, clustering, and visualization steps.
-
-KEY DEPENDENCIES
 
 The main libraries used for this analysis (defined in clustering.yml) are:
 
 pandas / numpy: Data manipulation
 
-scikit-learn: K-Means clustering model
+scikit-learn: K-Means clustering model, GMM model, PCA
 
 matplotlib / seaborn: Data visualization (e.g., Elbow Plot, cluster scatter plots)
 
